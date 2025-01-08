@@ -134,7 +134,7 @@
     "babel-preset-es2015": "^6.0.15",
     "babel-preset-stage-0": "^6.0.15",
     "sass": "1.69.5",
-    "vite": "^5.4.8"
+    "vite": "^5.4.11"
   },
   "eslintConfig": {
     "extends": [
