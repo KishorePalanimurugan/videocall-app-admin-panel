@@ -137,10 +137,10 @@ const Login = (props) => {
             <Col md={8} lg={6} xl={5}>
               <Card className="overflow-hidden">
                 <div className="bg-primary-subtle">
-                  <Row>
+                  <Row style={{ backgroundColor: "#8243D9" }}>
                     <Col xs={7}>
-                      <div className="text-primary p-4">
-                        <h5 className="text-primary">Welcome Back !</h5>
+                      <div className="text p-4" style={{ color: "#ffffff" }}>
+                        <h5 className="text">Welcome Back !</h5>
                         <p>Sign in to continue</p>
                       </div>
                     </Col>
@@ -211,6 +211,10 @@ const Login = (props) => {
 
                       <div className="mt-3 d-grid">
                         <button
+                          style={{
+                            backgroundColor: "#8243D9",
+                            border: "#8243D9",
+                          }}
                           className="btn btn-primary btn-block"
                           type="submit"
                         >

@@ -113,7 +113,7 @@ function Earnings() {
     ],
     []
   );
-
+  
   return (
     <React.Fragment>
       <div className="page-content">
